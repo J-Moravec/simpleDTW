@@ -1,0 +1,18 @@
+Encoding: UTF-8
+Package: simpleDTW
+Title: Implementation of Dynamic Time Warping using C++
+Version: 0.01
+Authors@R: person("Jiří", "Moravec", email = "j.moravec@mail.muni.cz",
+                  role = c("aut", "cre"))
+Description: Implementation of Dynamic Time Warping using C++. This function
+    should produce similar results like Dynamic Time Warping from package DTW
+    using default values.
+License: GPL-2
+Imports:
+    Rcpp
+Suggests:
+    testthat,
+    knitr
+LinkingTo: Rcpp
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
